@@ -173,14 +173,14 @@ r_z &= Tr(Z\rho) = \bra{0}{\rho} \ket{0} - \bra{1}{\rho} \ket{1} = \mathbb{P}\ke
 
 \section*{Gates}
 \subsection*{Hadamard Gate}
-The Hadamard Gate is a symmetry over the $x+z$ axis, which can be decomposed in two rotations:
+The Hadamard Gate can be decomposed in two rotations:
 \[H = 
 \frac{1}{\sqrt{2}}\begin{pmatrix}
 1 & 1\\ 
 1 & -1
 \end{pmatrix}
 = \ket{\text{+}}\bra{0} + \ket{\text{-}}\bra{1}
-= R_x(\frac{\pi}{2})R_z(\frac{\pi}{2})
+= R_x(\pi)R_y(\frac{\pi}{2}) = -iX \cdot R_y(\frac{\pi}{2}) 
 \]
 
 \subsection*{Phase Gate}
