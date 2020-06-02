@@ -1,4 +1,4 @@
 ## A simple reference card for quantum computing
-![first page](cheatsheet1.jpg)
+![first page](cheatsheet-0.jpg)
 
-![second page](cheatsheet2.jpg)
+![second page](cheatsheet-1.jpg)
