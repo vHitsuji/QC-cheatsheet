@@ -221,14 +221,19 @@ I & 0\\
 \end{minipage}
 \end{minipage}
 
-
-\subsection*{EPR pairs}
+\newpage
+\section*{EPR pairs}
 The EPR pairs are the Bell states denoted by $\ket{\Phi ^+}$, $\ket{\Phi ^-}$, $\ket{\Psi ^+}$ and $\ket{\Psi ^-}$.
+The circuit is $(H\otimes I_2) \cdot CX$ and can output every Bell states:
+
 \vspace{2\baselineskip}
 
 \begin{minipage}{\linewidth}
 \begin{minipage}{0.5\linewidth}\center
-$|\Phi^+\rangle = \frac{1}{\sqrt{2}} (|00\rangle_B + |11\rangle_B)$
+\[|\Phi^+\rangle  = [(H\otimes I_2) \cdot CX] \ket{00} = \frac{1}{\sqrt{2}} (|00\rangle+ |11\rangle)\]
+\[|\Psi^+\rangle  = [(H\otimes I_2) \cdot CX] \ket{01} = \frac{1}{\sqrt{2}} (|01\rangle+ |10\rangle)\]
+\[|\Phi^-\rangle  = [(H\otimes I_2) \cdot CX] \ket{10} =  \frac{1}{\sqrt{2}} (|00\rangle- |11\rangle) \]
+\[|\Psi^-\rangle  = [(H\otimes I_2) \cdot CX] \ket{11} = \frac{1}{\sqrt{2}} (|01\rangle- |10\rangle)\]
 \end{minipage}
 \begin{minipage}{0.5\linewidth}\center
 \vspace*{\fill}
@@ -237,5 +242,10 @@ $|\Phi^+\rangle = \frac{1}{\sqrt{2}} (|00\rangle_B + |11\rangle_B)$
 \end{minipage}
 \end{minipage}
 
+\vspace{2\baselineskip}
+Which sums up to:
+	\[[(H\otimes I_2) \cdot CX] \ket{xy}  = \frac{1}{\sqrt{2}} (|0y\rangle + (-1)^{x} |1 \bar{y}\rangle) \]
+	
 
 \end{document}
+	
